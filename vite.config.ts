@@ -2,7 +2,8 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 // https://vite.dev/config/
-base: "/appweb-atel09/"
+
 export default defineConfig({
+  base: "/appweb-atel09/",
   plugins: [vue()],
 })
